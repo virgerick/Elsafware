@@ -5,5 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+ <ItemGroup>
+    <ProjectReference Include="..\Shared\Elsaftware.Shared.csproj" />
+    <ProjectReference Include="..\Shared\Elsaftware.Application
+    .csproj" />
+  </ItemGroup>
 </Project>
